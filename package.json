@@ -5,7 +5,10 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lhci:collect": "lhci collect",
+    "lhci:upload": "lhci upload",
+    "lhci:autorun": "lhci autorun"
   },
   "keywords": [],
   "author": "",
